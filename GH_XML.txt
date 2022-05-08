@@ -1,0 +1,155 @@
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test
+$ git clone https://github.com/Olga-Igorevna/XML.git
+Cloning into 'XML'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test
+$ cd XML
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ touch nwe.xml
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git add new.xml
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git commit -m "create"
+[main 23b66ee] create
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new.xml
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 276 bytes | 276.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Olga-Igorevna/XML.git
+   9e92eba..23b66ee  main -> main
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ vim new.xml
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   new.xml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git commit -am "add information"
+warning: LF will be replaced by CRLF in new.xml.
+The file will have its original line endings in your working directory
+[main e5e89ec] add information
+ 1 file changed, 6 insertions(+)
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 381 bytes | 381.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Olga-Igorevna/XML.git
+   23b66ee..e5e89ec  main -> main
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ touch preferences.xml
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ vim preferences.xml
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ touch skills.xml
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ vim skills.xml
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        preferences.xml
+        skills.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git add .
+warning: LF will be replaced by CRLF in preferences.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in skills.xml.
+The file will have its original line endings in your working directory
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   preferences.xml
+        new file:   skills.xml
+
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git commit -m "add files"
+[main 5af7ecd] add files
+ 2 files changed, 35 insertions(+)
+ create mode 100644 preferences.xml
+ create mode 100644 skills.xml
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.35 KiB | 1.35 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Olga-Igorevna/XML.git
+   e5e89ec..5af7ecd  main -> main
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git fetch
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 1.21 KiB | 82.00 KiB/s, done.
+From https://github.com/Olga-Igorevna/XML
+   5af7ecd..9a0109e  main       -> origin/main
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$ git pull
+Updating 5af7ecd..9a0109e
+Fast-forward
+ bug_report.xml | 21 +++++++++++++++++++++
+ 1 file changed, 21 insertions(+)
+ create mode 100644 bug_report.xml
+
+Olia@kot MINGW64 /d/Ольга/Тестирование/group_29_free/Git_test/XML (main)
+$
