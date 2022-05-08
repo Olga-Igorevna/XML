@@ -1,0 +1,28 @@
+<xml>
+    <a>"Basic theory (What is testing, bug reports, documentation, types, methods, directions of testing, etc.) SDLC, STLC"</a>
+    <b>"What is client-server architecture."</b>
+    <c>"HTTP Server Request Methods"</c>
+    <d>"HTTP server response codes"</d>
+    <e>"Structures of HTTP requests and responses"</e>
+    <f>"What is JSON, XML. Their structure"</f>
+    <g>"Capturing and reading logs from an external server"</g>
+    <h>"Sniffing http web traffic through Charles and Fiddler"</h>
+    <i>"Python. (Learning the basics. Creating a client-server application)"</i>
+    <j>"Dev Tools web browsers (Google Chrome, FireFox)"</j>
+    <k>"VPN. (How it works, why you need it, how to use it, tool options)"</k>
+    <l>"Mobile testing"</l>
+    <m>"Feature of iOS, Android, guidlines"</m>
+    <n>"Building iOS apps on XCode. (Those who don't have a Mac computer, just watch)"</n>
+    <o>"Building Android apps on Android Studio"</o>
+    <p>"ADB (android device management)"</p>
+    <q>"Setting up proxies and vpn on iOS and Android"</q>
+    <r>"Intercepting (sniffing) mobile traffic through Charles and Fiddler on iOS and Android"</r>
+    <s>"Linux command line (terminal) (copying, creating, viewing, moving files on servers without GUI)"</s>
+    <t>"Basics of bash scripting, automation of routine tasks on the server"</t>
+    <u>"Access to remote servers"</u>
+    <v>"SQL basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join)"</v>
+    <w>"Postgres database (installation, configuration and use)"</w>
+    <x>"Redis nonrelational database (installation, configuration and use)"</x>
+    <y>"Load testing in Jmeter"</y>
+    <z>:"Scrum development methodology"</z>
+</xml>
